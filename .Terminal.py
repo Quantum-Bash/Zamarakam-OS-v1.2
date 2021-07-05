@@ -12,7 +12,7 @@ host_ip = socket.gethostbyname(host_name)
 login_uname  = open(".username")
 l_u = login_uname.read()
 print("""Welcome to Zamarakam Terminal [V 2.0]
-type 'help' (without quotients) for lists of commands and their usage""")
+type 'help' or '-h' (without quotients) for lists of commands and their usage""")
 
 while True:
     code = input(l_u + ' $ ')
@@ -73,9 +73,27 @@ while True:
                  rsd: restarts terminal (for me).
                  clear: clears the screen. (linux)
                  wclear: clears the screen. (windows)
+                 help: diplayas help.
             """)
     if code == '':
         pass
     if code == 'read':
         f = open(input("Enter filename to read: "))
         print(f.read())
+    if code == '-h':
+        print("""
+                 shutdown: Closes Zamarakam.
+                 -h: displays help.
+                 echo: echoes the word written after asked. 
+                 exit: goes back to home
+                 info: displays host name, username and local ISP.
+                 ls: list files in / (if you are using windows change path = '/' to path = 'C:/')
+                 ls -c: lists files in a specified directory. (Write file when prompted)
+                 ping: pings a website. (Write website and amount of times to ping when prompted)
+                 read: reads files. 
+                 restart: restarts zamarakam.
+                 rsd: restarts terminal (for me).
+                 clear: clears the screen. (linux)
+                 wclear: clears the screen. (windows)
+                 help: diplayas help.
+            """)
