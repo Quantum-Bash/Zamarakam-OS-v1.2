@@ -51,7 +51,7 @@ while True:
         print("restarting...")
         exit()    
     if code == 'rsd':
-        os.system("python3.8 Terminal.py")
+        os.system("python3.8 .Terminal.py")
         print("restarting...")
         exit()  
     if code == 'clear':
