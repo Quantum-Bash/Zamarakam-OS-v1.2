@@ -15,23 +15,37 @@ For BSD you should probably know how to if not why did you download it in the fi
 The following are the required dependencies:
 
 python 3.8
+
 psutil
+
 PyQtWebEngine
+
 PyQt5
+
 TK
+
 wget
 
 paste version:
+
 pip install psutil
+
 pip install PyQtWebEngine
+
 pip install PyQt5
+
 pip install TK
+
 pip install wget
 
 This OS is NOT concerned with security and instead is just a fun litle OS to play around with.
 
 ZamarakamOS v1.2 new features:
+
 More terminal commands.
+
 SuperTerminal with the ability to download files.
+
 hidden python files (for linux and BSD).
+
 shutdown option improved.
